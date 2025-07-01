@@ -57,8 +57,8 @@ const App: React.FC = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const poolData = {
-    UserPoolId: process.env.USER_POOL_ID!,
-    ClientId: process.env.CLIENT_ID!
+    UserPoolId: import.meta.env.VITE_USER_POOL_ID!,
+    ClientId: import.meta.env.VITE_CLIENT_ID!
   };
   
   const userPool = new CognitoUserPool(poolData);
