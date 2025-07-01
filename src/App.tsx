@@ -373,6 +373,7 @@ const App: React.FC = () => {
               >
                 LOGIN
               </Button>
+              {/*
               <Box textAlign="center">
                 <Button
                   variant="link"
@@ -382,6 +383,7 @@ const App: React.FC = () => {
                   <small>Preencher dados de teste</small>
                 </Button>
               </Box>
+              */}
             </SpaceBetween>
           </div>
         </Container>
