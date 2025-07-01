@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React, { useState } from 'react';
 import {
@@ -51,7 +52,7 @@ const App: React.FC = () => {
   const [alert, setAlert] = useState<AlertState>({ show: false, type: 'info', message: '' });
   const [validationErrors, setValidationErrors] = useState<ValidationErrors>({});
   const [view, setView] = useState("login");
-  const [session, setSession] = useState("");
+
   const [newRequiredPassword, setNewRequiredPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
 
