@@ -42,7 +42,7 @@ interface AlertState {
 
 const App: React.FC = () => {
   const [mfaCode, setMfaCode] = useState('');
-  const [forgotEmail, setForgotEmail] = useState('');
+  const [_forgotEmail, setForgotEmail] = useState('');
   const [resetCode, setResetCode] = useState('');
   const [newPassword, setNewPassword] = useState('');
   const [cognitoUser, setCognitoUser] = useState<CognitoUser | null>(null);
@@ -332,7 +332,7 @@ const App: React.FC = () => {
               <div className="relative w-full border-b-1">
                 <button
                   className={`h-4 w-4 ${showPassword ? 'bg-[url(eye.svg)]' : 'bg-[url(eye-slash.svg)]'} bg-no-repeat p-1 absolute right-0 cursor-pointer`}
-                  onClick={(e: React.MouseEvent<HTMLButtonElement>) => setShowPassword(!showPassword)}
+                  onClick={(_e: React.MouseEvent<HTMLButtonElement>) => setShowPassword(!showPassword)}
                   type="button"
                 ></button>
                 <input
