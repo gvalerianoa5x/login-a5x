@@ -122,7 +122,7 @@ const App: React.FC = () => {
             token,
           });
         },
-        onFailure: (err) => {
+        onFailure: (_err) => {
           resolve({
             success: false,
             message: "Erro de autenticação - Verifique o email e senha",
