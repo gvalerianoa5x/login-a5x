@@ -278,7 +278,9 @@ const App: React.FC = () => {
             header={
               <div className="text-center py-6">
                 <div className="flex items-center justify-center p-2">
-                  <img src="/a5x-logo.svg" alt="a5x" />
+                  <a href="https://login-a5x.vercel.app/">
+                    <img src="/a5x-logo.svg" alt="a5x" />
+                  </a>
                 </div>
                 <div className="text-sm text-gray-600 font-bold">
                   <label>Seja bem vindo a nossa extranet</label>
@@ -345,7 +347,9 @@ const App: React.FC = () => {
             header={
               <div className="text-center py-6">
                 <div className="flex items-center justify-center p-2">
-                  <img src="/a5x-logo.svg" alt="a5x" />
+                  <a href="https://login-a5x.vercel.app/">
+                    <img src="/a5x-logo.svg" alt="a5x" />
+                  </a>
                 </div>
                 <div className="text-sm text-gray-600 font-bold">
                   <label>Seja bem vindo a nossa extranet</label>
@@ -431,7 +435,9 @@ const App: React.FC = () => {
           header={
             <div className="text-center py-6">
               <div className="flex items-center justify-center p-2">
-                <img src="/a5x-logo.svg" alt="a5x" />
+                <a href="https://login-a5x.vercel.app/">
+                  <img src="/a5x-logo.svg" alt="a5x" />
+                </a>
               </div>
               <div className="text-sm text-gray-600 font-bold">
                 <label>Seja bem vindo a nossa extranet</label>
