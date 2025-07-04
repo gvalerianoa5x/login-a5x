@@ -1,14 +1,1 @@
 @import "tailwindcss";
-
-
-input {
-  border:none !important;
-  border-radius:0px !important;
-  outline: none !important;
-}
-
-input :focus {
-  border:none !important;
-  border-radius:0px !important;
-  outline: none !important;
-}
